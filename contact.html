@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Байланыш — Салимбаев Рустам</title>
+  <meta name="description" content="Салимбаев Рустам менен байланышуу.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Негизги мазмунга өтүү</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Салимбаев Рустам</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav">Меню</button>
+      <nav id="nav" aria-label="Негизги меню"><ul><li><a href="index.html">Башкы бет</a></li><li><a href="about.html">Мен тууралуу</a></li><li><a href="skills.html">Көндүмдөр</a></li><li><a href="contact.html" aria-current="page">Байланыш</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <h1>Байланыш</h1>
+    <div class="two">
+      <section aria-labelledby="c1">
+        <h2 id="c1">Түз байланыш</h2>
+        <ul class="plain contacts">
+          <li>Телефон: <a href="tel:+996554724774">+996554724774</a></li>
+          <li>Электрондук почта: <a href="mailto:rustam61it@gmail.com">rustam61it@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/Rustam6161" target="_blank" rel="noopener noreferrer">Rustam6161</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="c2">
+        <h2 id="c2">Билдирүү калтыруу</h2>
+        <p class="note">Бул форма — frontend үлгүсү. Маалымат серверге жөнөтүлбөйт.</p>
+        <form id="contact-form" novalidate>
+          <label for="name">Аты-жөнү</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email">Электрондук почта</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="msg">Билдирүү</label>
+          <textarea id="msg" name="msg" rows="5" required></textarea>
+          <button class="btn" type="submit">Билдирүүнү текшерүү</button>
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Салимбаев Рустам</p>
+      <p><a href="https://github.com/Rustam6161" target="_blank" rel="noopener noreferrer">GitHub: Rustam6161</a></p>
+    </div>
+  </footer>
+</body>
+</html>
